@@ -1,0 +1,15 @@
+[
+    {
+        "backup": true,
+        "id": "632980ba121152901f5c523b",
+        "title": "string",
+        "type": "objectStorage",
+        "config": {
+            "accessKey": "6e934343-54c1-40dc-90ae-a006baec2621",
+            "secretKey": "7eb9c5e0fc88429ba7d7dfb51d95ab06bee30fd9eb480c155fe4c9a2e6577b89",
+            "serviceUrl": "https://s3.ir-thr-at1.arvanstorage.com",
+            "bucket": "comfm"
+        },
+        "directory": "backup/"
+    }
+]

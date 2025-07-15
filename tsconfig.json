@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "experimentalDecorators": true,
+    "module": "CommonJS",
+    // Import non-ES modules as default imports.
+    "esModuleInterop": true,
+    // Target latest version of ECMAScript.
+    "target": "ES2018",
+    // Process & infer types from .js files.
+    "allowJs": true,
+    "skipLibCheck": true,
+    // Enable strictNullChecks & noImplicitAny.
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "strictFunctionTypes": false,
+    "noImplicitThis": false,
+    // Search under node_modules for non-relative imports.
+    "moduleResolution": "node",
+    // Import .json files
+    "resolveJsonModule": true,
+    "outDir": "build",
+    "baseUrl": ".",
+    "jsx": "react",
+    "paths": {
+      "*": [
+        "node_modules/*",
+        "src/types/*",
+        "src/uploads/*"
+      ]
+
+    },
+    "lib": [
+      "es6",
+      "dom",
+      "es2017"
+    ],
+    // "tsBuildInfoFile": "./buildcache"
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "src/uploads"  
+  ]
+}
